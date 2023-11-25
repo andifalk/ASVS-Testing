@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: asvs-test
+  datasource:
+    url: 'jdbc:h2:mem:testdb'
+  h2:
+    console:
+      enabled: true
+  jpa:
+    open-in-view: false
