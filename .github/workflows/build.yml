@@ -26,7 +26,7 @@ jobs:
         with:
           arguments: build
       - name: Root Gradle Dependency Submission
-        uses: mikepenz/gradle-dependency-submission@{latest}
+        uses: mikepenz/gradle-dependency-submission@v0.9.1
         with:
           use-gradlew: false
           gradle-build-module: |-
